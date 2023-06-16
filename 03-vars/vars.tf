@@ -7,7 +7,7 @@ output "sample" {
 }
 
 variable "sample1" {
-  default = "Hello_World"
+  default = Hello_World
 }
 
 output "sample1" {
