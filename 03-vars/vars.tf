@@ -63,3 +63,12 @@ variable "sample7" {
 output "sample7" {
   value = var.sample7["number"]
 }
+
+##Variables from tfvars
+variable "demo1" {
+
+}
+
+output "demo1" {
+  value = var.demo1
+}
