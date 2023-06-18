@@ -73,7 +73,7 @@ output "demo1" {
   value = var.demo1
 }
 
-#Variables from SHELL env variables.tf
+#Variables from SHELL env vars.tf
 variable "demo2" {
   default = null
 }
