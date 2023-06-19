@@ -20,5 +20,14 @@ output "publicip" {
 }
 
 variable "components" {
-  default = ["cart", "catalogue"]
+  default = {
+    cart = {
+      name = "cart",
+      instance_type = "t3.small"
+    }
+    catalogue = {
+      name = "catalogue",
+      instance_type = "t3.micro"
+    }
+  }
 }
